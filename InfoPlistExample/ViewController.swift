@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let label: UILabel = {
+        let label = UILabel()
+        label.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
+        label.textAlignment = .center
+        return label
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        label.center = view.center
+        view.addSubview(label)
+        
+        let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "-"
+        label.text = "App Version: v\(appVersion)"
     }
-
-
 }
 
