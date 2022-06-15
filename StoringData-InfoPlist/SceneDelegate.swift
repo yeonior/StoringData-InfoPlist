@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  InfoPlistExample
+//  StoringData-InfoPlist
 //
 //  Created by ruslan on 22.10.2021.
 //

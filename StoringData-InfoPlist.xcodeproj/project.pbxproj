@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A2C3AAAB27233F4600B44F91 /* InfoPlistExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoPlistExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C3AAAB27233F4600B44F91 /* StoringData-InfoPlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StoringData-InfoPlist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C3AAAE27233F4600B44F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2C3AAB027233F4600B44F91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2C3AAB227233F4600B44F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		A2C3AAA227233F4600B44F91 = {
 			isa = PBXGroup;
 			children = (
-				A2C3AAAD27233F4600B44F91 /* InfoPlistExample */,
+				A2C3AAAD27233F4600B44F91 /* StoringData-InfoPlist */,
 				A2C3AAAC27233F4600B44F91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		A2C3AAAC27233F4600B44F91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2C3AAAB27233F4600B44F91 /* InfoPlistExample.app */,
+				A2C3AAAB27233F4600B44F91 /* StoringData-InfoPlist.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2C3AAAD27233F4600B44F91 /* InfoPlistExample */ = {
+		A2C3AAAD27233F4600B44F91 /* StoringData-InfoPlist */ = {
 			isa = PBXGroup;
 			children = (
 				A2C3AAAE27233F4600B44F91 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				A2C3AAB927233F4800B44F91 /* LaunchScreen.storyboard */,
 				A2C3AABC27233F4800B44F91 /* Info.plist */,
 			);
-			path = InfoPlistExample;
+			path = "StoringData-InfoPlist";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2C3AAAA27233F4600B44F91 /* InfoPlistExample */ = {
+		A2C3AAAA27233F4600B44F91 /* StoringData-InfoPlist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2C3AABF27233F4800B44F91 /* Build configuration list for PBXNativeTarget "InfoPlistExample" */;
+			buildConfigurationList = A2C3AABF27233F4800B44F91 /* Build configuration list for PBXNativeTarget "StoringData-InfoPlist" */;
 			buildPhases = (
 				A2C3AAA727233F4600B44F91 /* Sources */,
 				A2C3AAA827233F4600B44F91 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = InfoPlistExample;
+			name = "StoringData-InfoPlist";
 			productName = InfoPlistExample;
-			productReference = A2C3AAAB27233F4600B44F91 /* InfoPlistExample.app */;
+			productReference = A2C3AAAB27233F4600B44F91 /* StoringData-InfoPlist.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2C3AAA627233F4600B44F91 /* Build configuration list for PBXProject "InfoPlistExample" */;
+			buildConfigurationList = A2C3AAA627233F4600B44F91 /* Build configuration list for PBXProject "StoringData-InfoPlist" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2C3AAAA27233F4600B44F91 /* InfoPlistExample */,
+				A2C3AAAA27233F4600B44F91 /* StoringData-InfoPlist */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3JHK4U826;
-				INFOPLIST_FILE = InfoPlistExample/Info.plist;
+				INFOPLIST_FILE = "StoringData-InfoPlist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YeoCompany.InfoPlistExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.StoringData-InfoPlist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -307,12 +307,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3JHK4U826;
-				INFOPLIST_FILE = InfoPlistExample/Info.plist;
+				INFOPLIST_FILE = "StoringData-InfoPlist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YeoCompany.InfoPlistExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "YeoCompany.StoringData-InfoPlist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2C3AAA627233F4600B44F91 /* Build configuration list for PBXProject "InfoPlistExample" */ = {
+		A2C3AAA627233F4600B44F91 /* Build configuration list for PBXProject "StoringData-InfoPlist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2C3AABD27233F4800B44F91 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2C3AABF27233F4800B44F91 /* Build configuration list for PBXNativeTarget "InfoPlistExample" */ = {
+		A2C3AABF27233F4800B44F91 /* Build configuration list for PBXNativeTarget "StoringData-InfoPlist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2C3AAC027233F4800B44F91 /* Debug */,
